@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: @abaplint/cli
+    - name: @abaplint
       uses: abaplint/actions-abaplint@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
